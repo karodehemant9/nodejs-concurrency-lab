@@ -1,33 +1,37 @@
-{
-  "name": "nodejs-concurrency-lab",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "api": "node labs/api/index.js",
-    "api:dev": "nodemon labs/api/index.js",
-    "worker": "node labs/bullmq/worker.js",
-    "event-loop": "node labs/event-loop/index.js",
-    "starvation": "node labs/event-loop/starvation.js",
-    "cluster": "node labs/cluster/index.js",
-    "spawn": "node labs/child-process/spawn.js",
-    "exec": "node labs/child-process/exec.js",
-    "fork": "node labs/child-process/fork-parent.js",
-    "memory": "node labs/memory/index.js",
-    "buffer": "node labs/memory/buffer.js",
-    "streams": "node labs/streams/index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "bullmq": "^5.76.5",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "ioredis": "^5.10.1",
-    "winston": "^3.19.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
+  {
+    "name": "nodejs-concurrency-lab",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "api": "node labs/api/index.js",
+      "api:dev": "nodemon labs/api/index.js",
+      "worker": "node labs/bullmq/worker.js",
+      "event-loop": "node labs/event-loop/index.js",
+      "starvation": "node labs/event-loop/starvation.js",
+      "cluster": "node labs/cluster/index.js",
+      "spawn": "node labs/child-process/spawn.js",
+      "exec": "node labs/child-process/exec.js",
+      "fork": "node labs/child-process/fork-parent.js",
+      "memory": "node labs/memory/index.js",
+      "buffer": "node labs/memory/buffer.js",
+      "streams": "node labs/streams/index.js",
+      "emitter": "node labs/event-emitter/index.js",
+      "cpu": "node labs/cpu-blocking/index.js",
+      "libuv": "node labs/libuv/index.js",
+      "graceful": "node labs/graceful/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "bullmq": "^5.76.5",
+      "dotenv": "^17.4.2",
+      "express": "^5.2.1",
+      "ioredis": "^5.10.1",
+      "winston": "^3.19.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.14"
+    }
   }
-}
