@@ -7,7 +7,8 @@
     "api:dev": "nodemon labs/api/index.js",
     "worker": "node labs/bullmq/worker.js",
     "event-loop": "node labs/event-loop/index.js",
-    "starvation": "node labs/event-loop/starvation.js"
+    "starvation": "node labs/event-loop/starvation.js",
+    "cluster": "node labs/cluster/index.js"
   },
   "keywords": [],
   "author": "",
