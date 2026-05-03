@@ -5,7 +5,9 @@
   "scripts": {
     "api": "node labs/api/index.js",
     "api:dev": "nodemon labs/api/index.js",
-    "worker": "node labs/bullmq/worker.js"
+    "worker": "node labs/bullmq/worker.js",
+    "event-loop": "node labs/event-loop/index.js",
+    "starvation": "node labs/event-loop/starvation.js"
   },
   "keywords": [],
   "author": "",
