@@ -11,7 +11,10 @@
     "cluster": "node labs/cluster/index.js",
     "spawn": "node labs/child-process/spawn.js",
     "exec": "node labs/child-process/exec.js",
-    "fork": "node labs/child-process/fork-parent.js"
+    "fork": "node labs/child-process/fork-parent.js",
+    "memory": "node labs/memory/index.js",
+    "buffer": "node labs/memory/buffer.js",
+    "streams": "node labs/streams/index.js"
   },
   "keywords": [],
   "author": "",
